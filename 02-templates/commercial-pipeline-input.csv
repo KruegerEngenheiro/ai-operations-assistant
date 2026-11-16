@@ -1,0 +1,5 @@
+opportunity_id,segment,status,last_interaction,days_without_contact,estimated_value,commercial_stage,next_action,notes
+OPP-001,Retail,Active,2026-11-12,4,2500,Proposal,Follow-up,Proposal awaiting feedback
+OPP-002,Services,Active,2026-11-05,11,4000,Negotiation,Schedule meeting,Needs clarification about automation scope
+OPP-003,Food,Qualified,2026-11-14,2,1800,Discovery,Prepare assessment,Customer has an operational automation need
+OPP-004,Retail,Active,2026-10-28,19,3000,Contacted,Review opportunity,No recent response
