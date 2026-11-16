@@ -57,8 +57,31 @@ Do not estimate missing values or treat incomplete information as confirmed fact
 - **Qualified:** [Number and observations]
 - **Negotiation:** [Number and observations]
 - **Other statuses:** [Number and observations]
+## 3. Commercial Pipeline Analysis
 
-Only use categories supported by the source data.
+### Pipeline Overview
+
+Describe the distribution of opportunities using the categories available in the source dataset.
+
+### Opportunity Status
+
+Analyze the `status` field independently.
+
+| Status | Number of Opportunities | Observations |
+|---|---:|---|
+| [Status from dataset] | [Number] | [Observations] |
+
+Do not invent or impose categories that are not present in the source data.
+
+### Commercial Stage
+
+Analyze the `commercial_stage` field independently.
+
+| Commercial Stage | Number of Opportunities | Observations |
+|---|---:|---|
+| [Stage from dataset] | [Number] | [Observations] |
+
+Do not confuse opportunity status with commercial stage.
 
 ### Follow-up Analysis
 
@@ -71,7 +94,7 @@ Identify opportunities requiring attention based on:
 
 ### Key Observations
 
-[Describe the main patterns and bottlenecks identified.]
+Describe the main patterns and bottlenecks identified.
 
 ---
 
