@@ -34,16 +34,16 @@ The dataset must not contain customer names, email addresses, phone numbers, or 
 
 ### 4. TASKS
 
-The AI agent must:
-
 1. Review and organize the dataset.
 2. Identify incomplete or inconsistent records.
-3. Categorize opportunities by commercial stage.
+3. Categorize opportunities by commercial status and commercial stage separately.
 4. Identify opportunities without recent follow-up.
-5. Highlight opportunities with relevant conversion potential.
+5. Highlight opportunities with documented buying signals or clearly defined next steps.
 6. Identify commercial bottlenecks.
 7. Recommend priorities for the next seven days.
 8. Create a measurable action plan.
+9. Distinguish verified facts, assumptions, and hypotheses.
+10. Never estimate conversion probability without reliable supporting historical data.
 
 ### 5. EXECUTION PLAN REQUIRED
 
@@ -99,3 +99,9 @@ The task will be considered successful when:
 Start by presenting the execution plan only.
 
 Do not perform the analysis until the human supervisor approves the plan.
+
+Do not confuse opportunity status with commercial stage.
+
+Do not interpret inactivity as proof of lost business.
+
+Do not estimate conversion probability without reliable supporting historical data.
