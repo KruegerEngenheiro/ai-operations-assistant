@@ -1,5 +1,7 @@
 # Meu Kit de IA
 
+> **About this project (EN).** A reusable AI operations kit that any small business can copy and run on its own pipeline. It has two shortcuts (meeting prep and an operations report) and one delegated task, a weekly commercial review, executed with a plan-first flow, hard autonomy limits and human validation. Built during the Santander "IA para o dia a dia" bootcamp. The real example runs on my own business, Krueger Labs, with fully anonymized data, so any entrepreneur can swap in their own.
+
 Desafio de Projeto da [DIO](https://dio.me): monte o seu kit de IA para o dia a dia e delegue uma tarefa real, com você no comando.
 
 O kit foi criado pelo Expert Bruno Lima com os prompts, templates, checklists e skills usados nas Aulas. Ele não é uma apostila: abra a pasta que resolve o seu problema, copie o modelo, adapte e use.
