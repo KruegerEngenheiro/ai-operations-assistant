@@ -48,40 +48,75 @@ Você não precisa instalar nada nem saber programar. Tudo acontece no navegador
 
 ## Minha Entrega
 
-Na sua cópia, abra este README, clique no lápis (**Edit this file**) e role até aqui. Troque cada frase em itálico pelo que você fez e cole o texto dentro dos blocos já prontos. Para pôr um print, é só colar a imagem com Ctrl+V. No fim, clique em **Commit changes**.
-
-Nada de e-mail, nome de cliente, dado da empresa, senha ou informação pessoal nos textos e nos prints.
+> I filled this section with a real task from my own business. All data is anonymized: no names, contacts, companies or links. The AI prepares, I decide what gets acted on.
 
 ### Minha Tarefa Real
 
-_Qual tarefa da sua semana você escolheu e por que ela vale a pena?_
+I chose a task from my own business (Krueger Labs): a **weekly review of my commercial pipeline**. It repeats every week, it decides where I spend my limited selling time, and it is safe to publish because the pipeline is fully anonymized. The point of delegating it is to get a clear diagnosis and a 7-day action plan I can actually run, while the AI never acts on its own.
 
 ### Meus Atalhos
 
-_Conte quais modelos do kit você adaptou, o que ficou fixo e o que muda a cada uso._
+I adapted two shortcuts from the kit into reusable skills. In both, the **fixed part** is the role, the rules and the output format; **what changes each use** is the context and the data I paste inside the brackets.
+
+- **Shortcut 1 — Meeting Intelligence** (`01-prompts/meeting-intelligence.md`): turns scattered context into an executive briefing before a meeting.
+- **Shortcut 2 — Business Operations Intelligence** (`01-prompts/business-operations-intelligence.md`): turns raw operational data into a report plus an action plan, tagging every line as FACT or SUGGESTION.
 
 ```text
-Cole aqui o seu primeiro atalho, já adaptado.
+Act as a Senior Forward Deployed Engineer and meeting advisor.
+Turn the context below into a short executive briefing.
+
+FIXED: identify the main problem; separate facts from assumptions; define the
+objectives; build a prioritized agenda with time estimates; list the critical
+questions; propose decisions and next steps. Never invent facts. Do not send
+messages or schedule anything. I approve every decision.
+
+CHANGES EACH USE: [company] [meeting type] [participant roles] [current situation]
+[previous decisions] [open issues].
 ```
 
 ```text
-Cole aqui o seu segundo atalho, já adaptado.
+Act as a Senior Business Operations Analyst with FDE experience.
+Turn the data below into a report plus a 7-day action plan.
+
+FIXED: tag every line [FACT] or [SUGGESTION]; never fabricate numbers; do not
+treat an inactive deal as lost; do not contact anyone or change records; keep
+commercial status separate from commercial stage.
+OUTPUT: snapshot, data quality, opportunities, risks and bottlenecks,
+action plan (priority, action, outcome, KPI, deadline), decisions that need me.
+
+CHANGES EACH USE: [business] [period] [objective] [data source] [KPIs].
 ```
 
 ### Minha Delegação
 
 ```text
-Cole aqui o pedido que você entregou à IA, com objetivo, contexto, recursos, limites e sucesso.
+Objective: analyze one week of my commercial pipeline and return a diagnosis plus
+a 7-day action plan, so I spend my limited selling time where it moves revenue.
+Context: a small services business; short daily selling windows; prioritization
+matters more than volume.
+Resources: the anonymized pipeline in 02-templates/commercial-pipeline-input.csv
+(stage, value, last contact, next action) and my follow-up cadence rule.
+Limits: do not message anyone; do not change the CRM; do not invent data; tag every
+line FACT or SUGGESTION; submit decisions for my approval.
+Success: a diagnosis consistent with the data and a plan I can actually run.
+Before you start: show me the plan. Do not produce the report until I approve it.
 ```
 
 ### O Plano da IA
 
-_Cole o print do plano e conte o que você ajustou antes de a IA começar._
+The agent returned its plan **before** any analysis. I read it, approved it, then let it proceed. Asking for the plan first is what keeps me in control of a bigger task.
+
+![The plan the AI proposed first](evidence/02-plan.png)
 
 ### O Resultado
 
-_Cole o print do resultado e conte como você conferiu antes de usar._
+The first result was good, but I did not accept it as is. I asked for one change: **prioritize clients who already closed and already paid, before new or cold opportunities.** The agent reordered the priorities, moved the paying client to first, and reframed the closed-but-unpaid deal as "secure the payment". I then validated every conclusion against the data before using it.
+
+![The request I delegated](evidence/01-request.png)
+![The first result](evidence/03-result.png)
+![The adjustment I asked for](evidence/04-adjustment.png)
+![My validation](evidence/05-validation.png)
 
 ### Como Foi para Você
 
-_Conte em poucas linhas o que mudou no seu dia a dia._
+The biggest change was treating the AI as something I **supervise**, not something I trust blindly. Asking for the plan first, tagging facts versus suggestions, and setting hard limits (no messages, no CRM changes) turned a generic chat into a repeatable part of my weekly routine. The AI prepares; I decide what gets acted on.

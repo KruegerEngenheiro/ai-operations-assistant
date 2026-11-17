@@ -1,2 +1,10 @@
-
 opportunity_id,segment,status,last_interaction,days_without_contact,estimated_value,commercial_stage,next_action,notes
+OPP-A,"Autonomous market (comms + CRM)",Paused by client,~4 weeks ago,28,2900,Proposal,Resume gently in mid next month,"Liked the work but has no budget now and asked for time"
+OPP-B,Gym (franchise unit),Active,2 days ago,2,,Discovery,Send the ready example and book a 15-min call,"Replied to first contact; example page already prepared"
+OPP-C,Treated-wood supplier,Awaiting reply,2 days ago,2,1500,Preview sent,Follow up in 3 days if no reply,"Preview delivered; price band 1200-1500 plus 99/mo suggested"
+OPP-D,Barbershop,Awaiting reply,2 days ago,2,,Preview sent,Follow up in 3 days; confirm correct contact channel,"Preview delivered; value not quoted yet"
+OPP-E,Pizzeria,Not contacted,none,,,Preview live,Send first message to owner and request original photos,"Preview is online but the owner was never contacted"
+OPP-F,Burger restaurant,Not contacted,none,,,Chosen lead,Get owner social handle and photos to build the preview,"Selected as the next food-niche lead; waiting on assets"
+OPP-G,Premium menswear,Closed - in production,1 week ago,7,1500,Closed,Await counter-signature and first installment then kick off,"Contract signed on our side; payment split 750 + 750"
+OPP-H,Recurring advisory client,Active - paid,this month,,400,Active client (paid),Deliver this month's work and protect the relationship,"Closed and paid; recurring 400 per month; current month already paid"
+OPP-COLD,"Cold outreach pool (102 leads)",Cold,rolling,,,Lead,Run two follow-up waves this week; pace 15-20 per day,"33 contacted / 1 replied / 69 not yet contacted"
